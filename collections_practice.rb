@@ -61,4 +61,5 @@ def add_s(array)
       x = string
     end
     y << x
+  end
 end
