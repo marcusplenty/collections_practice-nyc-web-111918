@@ -55,7 +55,7 @@ end
 def add_s(array)
   y = []
   array.each_with_index do |string,i|
-    if i == 2 
+    if i == 1 
       x = string
     else
       x = string + "s"
