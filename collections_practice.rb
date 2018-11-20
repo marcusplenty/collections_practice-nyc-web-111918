@@ -53,5 +53,12 @@ def sum_array(array)
 end
 
 def add_s(array)
-  
+  y = []
+  array.each_with_index do |string,i|
+    if i != 2 
+      x = string + "s"
+    else
+      x = string
+    end
+    y << x
 end
