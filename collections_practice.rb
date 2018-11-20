@@ -55,11 +55,12 @@ end
 def add_s(array)
   y = []
   array.each_with_index do |string,i|
-    if i != 2 
-      x = string + "s"
-    else
+    if i == 2 
       x = string
+    else
+      x = string + "s"
     end
     y << x
   end
+  return y
 end
